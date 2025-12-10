@@ -1,0 +1,19 @@
+BOM:
+ - 2x 0805 20mA single color LEDs - https://www.tme.eu/pl/
+ - 2x 0603 Resistors - https://www.tme.eu/pl/
+ - BT20 male connector - https://flyfpv.pl/pl/p/Zlacze-wtyczka-BT2.0-FM-1-sztuka/254
+
+Resistance for different LED color:
+ - ice blue - 2.8V < Uf < 3.6V - 82ohm 
+ - red - 1.6V < Uf < 2.2V - 150ohm
+ - orange - 
+ - green - 
+ - blue - 
+ - yellow - 
+ - white - 
+
+Formula for calculating the resistors value:
+
+R = (4.35V - Uf) / 0.02A
+
+Using E24 value standard we choose first value higher than the calculated value
